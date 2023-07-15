@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Udemig</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#education">Ne Ogreneceksiniz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#questions">Sorular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#instructors">Egitmenler</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- showcase -->
+
+    <section class="bg-dark text-light p-5 p-lg-0 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Bir <span class="text-warning">React Gelistiricisiyim,</span> Bu Super</h1>
+                    <p class="lead my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum omnis officiis
+                        molestias quam, assumenda saepe molestiae voluptatum dignissimos quas at alias quae quo eligendi
+                        ratione id, illo illum repudiandae? Modi?</p>
+                    <button class="btn btn-primary btn-lg mb-3" data-bs-toggle="modal" data-bs-target="#enroll">Kayıt
+                        Ol</button>
+                </div>
+                <img src="images/ios.jpeg" alt="" class="img-fluid w-50 d-sm-block">
+            </div>
+        </div>
+    </section>
+
+    <!-- urgen field -->
+
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div>
+                <h3 class="mb-3">Bize Ulas</h3>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="e-mail">
+                    <button class="btn btn-dark btn-lg">Gonder</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educational models -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <!-- first card -->
+                <div class="col-md">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h5 class="card-title">Sanal</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Daha Fazla Incele</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd card -->
+                <div class="col-md">
+                    <div class="card bg-secondary text-white">
+                        <div class="card-body">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person"></i>
+                            </div>
+                            <h5 class="card-title">Capraz</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-dark">Daha Fazla Incele</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3nd card  -->
+                <div class="col-md">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h5 class="card-title">Birebir</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Daha Fazla Incele</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Education area -->
+    <section class="p-5" id="education">
+        <div class="container">
+            <div class="row align-items center justify-content-between">
+                <div class="col-md">
+                    <img src="images/based.png" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Temelleri Ogren</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, quae?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione blanditiis ducimus, pariatur
+                        exercitationem eligendi assumenda itaque est? Ipsa possimus cumque repellat incidunt, a animi
+                        nulla vero explicabo non quia laborum voluptatem, dignissimos omnis praesentium molestias
+                        quibusdam quos. Esse eligendi cumque placeat nesciunt, modi aliquid accusamus dolore cupiditate?
+                        Deserunt, natus consectetur!</p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Daha Fazla Oku..
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 2nd Education area -->
+
+    <section class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Ileri Duzey Ogren</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, quae?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione blanditiis ducimus, pariatur
+                        exercitationem eligendi assumenda itaque est? Ipsa possimus cumque repellat incidunt, a animi
+                        nulla vero explicabo non quia laborum voluptatem, dignissimos omnis praesentium molestias
+                        quibusdam quos. Esse eligendi cumque placeat nesciunt, modi aliquid accusamus dolore cupiditate?
+                        Deserunt, natus consectetur!</p>
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Daha Fazla Oku..
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="images/react.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Frequently asked questions -->
+    <section class="p-5" id="questions">
+        <div class="container">
+            <h2 class="text-center mb-4">Sik Sorulan Sorular</h2>
+            <div class="accordion" id="accordionExample">
+                <!-- Question 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            En Yogun Saatler
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Egitim Saatleri
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Ucretler
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                    <!-- Question 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                Egitmen Durumlari
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                        <!-- Question 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Orgun Egitim Durumlari
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- Instructors -->
+    <section class="p-5 bg-primary" id="instructors">
+        <div class="container">
+            <h2 class="text-center text-white">Egitmenlerimiz</h2>
+            <p class="lead text-center text-white mb-5">Egitmenlerimiz 10 yildan fazla bu alanda calismaktadir.</p>
+            <div class="row g-4">
+                <!-- Instructor 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="images/person.jpeg" class="img-fluid rounded-circle w-50" alt="...">
+                            <h5 class="card-title mb-3">Marina Berg</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <i class="bi bi-linkedin text-primary"></i>
+                            <i class="bi bi-twitter text-primary"></i>
+                            <i class="bi bi-instagram text-warning"></i>
+                            <i class="bi bi-facebook text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Instructor 2 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="images/person.jpeg" class="img-fluid rounded-circle w-50" alt="...">
+                            <h5 class="card-title mb-3">Marina Berg</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <i class="bi bi-linkedin text-primary"></i>
+                            <i class="bi bi-twitter text-primary"></i>
+                            <i class="bi bi-instagram text-warning"></i>
+                            <i class="bi bi-facebook text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Instructor 3 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="images/person.jpeg" class="img-fluid rounded-circle w-50" alt="...">
+                            <h5 class="card-title mb-3">Marina Berg</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <i class="bi bi-linkedin text-primary"></i>
+                            <i class="bi bi-twitter text-primary"></i>
+                            <i class="bi bi-instagram text-warning"></i>
+                            <i class="bi bi-facebook text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Instructor 4 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="images/person.jpeg" class="img-fluid rounded-circle w-50" alt="...">
+                            <h5 class="card-title mb-3">Marina Berg</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <i class="bi bi-linkedin text-primary"></i>
+                            <i class="bi bi-twitter text-primary"></i>
+                            <i class="bi bi-instagram text-warning"></i>
+                            <i class="bi bi-facebook text-primary"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Us -->
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Iletisim Bilgileri</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Konum:</span> Stockholm
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Kayit Numarasi:</span> 520 520 520 520
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Ogrenci Isleri No:</span> 777 777 777 777
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Kayit Mail:</span> stockholm@udemig.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Ogrenci Isleri Mail:</span> info@udemig.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <!-- the old way
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8140.270824334585!2d18.016294074278886!3d59.33182343870435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77d5ef00de2b%3A0x7203ef106931a302!2sFridhemsplan%2C%20112%2040%20Stockholm%2C%20%C4%B0sve%C3%A7!5e0!3m2!1str!2str!4v1689429362429!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        -->
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-light text-center position-relative">
+        <div class="container">
+            <div class="lead">Tum Haklari &copy; Saklidir 2023 Udemig</div>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle"></i>
+            </a>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- modal -->
+
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Fill out this form and we will get back to you</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Ad:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-surname" class="col-form-label">Soyad:</label>
+                            <input type="text" class="form-control" id="recipient-surname">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-email" class="col-form-label">Email:</label>
+                            <input type="text" class="form-control" id="recipient-email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-phone" class="col-form-label">Telefon:</label>
+                            <input type="text" class="form-control" id="recipient-phone">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Gonder</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- JavaScript 
+API: AIzaSyAhgJj6JtBibbKBWZQaeeB_mG8w7WvZBTs -->
+    <script>
+        function myMap() {
+            var mapProp = {
+                center: new google.maps.LatLng(59.3318234, 18.0162941, 15),
+                zoom: 11,
+            };
+            var map = new google.maps.Map(document.getElementById("map"), mapProp);
+        }
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhgJj6JtBibbKBWZQaeeB_mG8w7WvZBTs&callback=myMap"></script>
+
+</body>
+
+</html>
